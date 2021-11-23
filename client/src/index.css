@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #ededed;
+  /* background-image: url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg"); */
+}
+
+.fontlink {
+  font-family: "Montagu Slab", serif;
+}
+.fontlinksoft {
+  font-family: "Mukta", sans-serif;
+}
+.fontlink2 {
+  font-family: "Outfit", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.blog_lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.form-full {
+  position: relative;
+  width: 33%;
+  height: auto;
+  margin: 5%;
+  padding: 2%;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  left: 25%;
+}
+
+.OppPageHeading {
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+.Opptextarea {
+  width: 20rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.viewComments {
+  float: right;
+}
+
+.accordion {
+  margin-left: 13rem;
+  margin-right: 13rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.WritecommentBox {
+  width: 30rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.postComment {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.PostOppHeading {
+  margin-top: 40px;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.Like:hover{
+    box-shadow: 0.5px 0.5px 2px 2px blue;
+}
+.Like{
+  color:blue;
+  background-color: white;
+  border: 1px solid blue;
+}
+.Dislike{
+  color: red;
+  background-color: white;
+  border: 1px solid red;
+}
+.Dislike:hover{
+  box-shadow: 0.5px 0.5px 2px 2px red;
+}
+.Comment{
+  color: blue;
+  background-color: white;
+}
+.Comment:hover{
+  color:white;
+  background-color:blue;
+}
+.LogOutBtn:hover{
+  background-color: white;
+  color: red;
+}
+.abt-img{
+  background-size: 1146px 480px;
+}
+.Logo {
+  width: 5%;
+  height: 3%;
+}
+@media only screen and (max-width: 620px) {
+  .OppPageHeading {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .PostOpportunity,
+  .OppCard {
+    width: 100%;
+  }
+  .Opptextarea {
+    width: 19rem;
+    margin-left: 1rem;
+  }
+  .PostOppHeading {
+    margin-left: 1rem;
+  }
+  .ViewOppBlock {
+    width: -webkit-fill-available;
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .accordion {
+    margin: 3rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .viewComments {
+    float: none;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .WriteComment {
+    margin-left: -5rem;
+    margin-right: -4rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .WritecommentBox {
+    width: 20rem;
+    margin-left: -5rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .postComment {
+    margin-left: -5rem;
+    margin-right: 0.5rem;
+  }
+}
+@media only screen and (max-width: 620px) {
+    .Logo {
+      width: 10%;
+      height: 3%;
+    }
+}
+@media only screen and (max-width: 620px) {
+.abt-img{
+  background-size: 500px 800px;
+}
+}
